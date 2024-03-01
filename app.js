@@ -6,14 +6,14 @@ function Calculate () {
    bmi = bmi.toFixed(2);
 
   if (bmi > 0 && bmi <= 18.5) {
-    document.getElementById('output').innerHTML = 'Your BMI is : <b>' + bmi;
+    document.getElementById('output').innerHTML = 'Your BMI is : <b>' + bmi + '</b><br>Your weight is <span>Underweight</span>.';
     output.style.color ='Gold';
   } else if (bmi > 18.5 && bmi <= 25) {
-    document.getElementById('output').innerHTML = 'Your BMI is : <b>' + bmi;
+    document.getElementById('output').innerHTML = 'Your BMI is : <b>' + bmi + '</b><br>Your weight is <span>Normal (healthy weight)</span>.';
     output.style.color ='green';
   } else if (bmi > 25 && bmi <= 40) {
-    document.getElementById('output').innerHTML = 'Your BMI is : <b>' + bmi;
-    output.style.color ='red';
+    document.getElementById('output').innerHTML = 'Your BMI is : <b>' + bmi + '</b><br>Your weight is <span>Overweight</span>.';
+    output.style.color ='orange';
   } else {
     document.getElementById('output').innerHTML = 'Please type valid numbers.';
   }
