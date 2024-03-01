@@ -32,17 +32,14 @@ h1{
 
 
 .row{
-
 	margin: auto;
 }
 
 .inputData{
-
 	margin-top: 6%;
 	font-size: 1.3rem;
 }
 .btn{
-
 	font-size: 1.3rem;
 	text-align: center;
 	margin: 12% auto;
@@ -58,7 +55,6 @@ h1{
 }
 
 .btn1 {
- 
     font-size: 1.3rem;
     text-align: center;
     margin: 12% auto;
@@ -73,7 +69,6 @@ h1{
 }
 
 .output{
-
 	color: black;
 	font-size: 1.5rem;
 	text-align: center;

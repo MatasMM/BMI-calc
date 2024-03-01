@@ -1,6 +1,6 @@
 function Calculate () {
-   const height = parseFloat(document.getElementById('Height').value);
-   const weight = parseFloat(document.getElementById('Weight').value);
+   const height = document.getElementById('Height').value;
+   const weight = document.getElementById('Weight').value;
 
    let bmi = weight / (height/100)**2;
    bmi = bmi.toFixed(2);
@@ -21,9 +21,8 @@ function Calculate () {
 
 
 const isDisabled = () => {
-  console.log("isDisabled");
-const height = parseFloat(document.getElementById("Height").value);
-const weight = parseFloat(document.getElementById("Weight").value);
+const height = document.getElementById("Height").value;
+const weight = document.getElementById("Weight").value;
 const clearBtn = document.getElementById("clearBtn");
 
  clearBtn.classList.add("active");
