@@ -1,4 +1,4 @@
-function main () {
+function Calculate () {
    const height = parseFloat(document.getElementById('Height').value);
    const weight = parseFloat(document.getElementById('Weight').value);
 
