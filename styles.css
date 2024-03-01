@@ -39,6 +39,28 @@ h1{
 	margin: 12% auto;
 	width: 150px;
 	border: 3px solid white;
+	border-radius: 2px;
+}
+
+.btnGrp {
+	display: flex;
+    justify-content: center;
+	gap: 10px;
+}
+
+.btn1 {
+ 
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 12% auto;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 2px;
+    display: none;
+}
+ 
+.active {
+    display: block;
 }
 
 .output{
@@ -47,7 +69,6 @@ h1{
 	font-size: 1.5rem;
 	text-align: center;
 	font-family: 'Montserrat Alternates', sans-serif;
- 	
 }
 
 /* Responsive part */
