@@ -50,7 +50,6 @@ function clear() {
 
   clearBtn.classList.remove('active');
   document.getElementById('output').innerHTML = '';
-
 }
 
 clearBtn.addEventListener('click', clear);
