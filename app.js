@@ -44,12 +44,13 @@ const clearBtn = document.getElementById("clearBtn");
 
 const clearBtn = document.querySelector('.btn1')
 function clear() {
-
+ 
   document.getElementById("Height").value = null;
   document.getElementById("Weight").value = null;
- 
+
   clearBtn.classList.remove('active');
- 
+  document.getElementById('output').innerHTML = '';
+
 }
 
 clearBtn.addEventListener('click', clear);
