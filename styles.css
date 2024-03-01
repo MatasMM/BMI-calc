@@ -1,0 +1,64 @@
+body{
+	background-image: url('images/Animated Shape.svg');
+}
+
+h1{
+	font-family: 'Montserrat Alternates', sans-serif;
+ 	font-weight: 500; 	
+	font-size: 4rem;
+	color: rebeccapurple;
+	text-align: center;
+	margin-top: 1%;
+}
+
+
+.container{
+	background-color: red;
+	height: 380px;
+	width: 450px;
+	margin: 3% auto 3% auto;
+	border-radius: 5%;
+	display: flex;
+}
+
+
+.row{
+
+	margin: auto;
+}
+
+.inputdata{
+
+	margin-top: 6%;
+	font-size: 1.3rem;
+}
+.btn{
+
+	font-size: 1.3rem;
+	text-align: center;
+	margin: 12% auto;
+	width: 250px;
+	border: 3px solid white;
+}
+
+.output{
+
+	color: pink;
+	font-size: 1.5rem;
+	text-align: center;
+	font-family: 'Montserrat Alternates', sans-serif;
+ 	
+}
+
+/* Responsive part */
+@media screen and (max-width: 600px) {
+  
+  h1{
+  	font-size: 4rem;
+  }
+
+  .output{
+
+	font-size: 1.5rem;
+  }
+}
