@@ -13,7 +13,7 @@ function Calculate () {
     output.style.color ='green';
   } else if (bmi > 25 && bmi <= 40) {
     document.getElementById('output').innerHTML = 'Your BMI is : <b>' + bmi + '</b><br>Your weight is <span>Overweight</span>.';
-    output.style.color ='orange';
+    output.style.color ='red';
   } else {
     document.getElementById('output').innerHTML = 'Please type valid numbers.';
   }
